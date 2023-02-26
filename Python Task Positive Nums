@@ -1,0 +1,6 @@
+def print_positive_numbers(start, end):
+    for i in range(start, end+1):
+        if i > 0:
+            print(i, end=' ')
+
+print_positive_numbers(1, 10)
